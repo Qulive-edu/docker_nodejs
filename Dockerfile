@@ -2,7 +2,7 @@
 FROM node:16
 
 # Устанавливаем рабочую директорию в контейнере
-WORKDIR /app
+
 
 # Копируем package.json и package-lock.json в контейнер
 COPY package*.json ./
